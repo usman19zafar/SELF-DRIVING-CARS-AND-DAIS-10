@@ -1,3 +1,47 @@
+```mermaid
+mindmap
+  root((Safety Standards Comparison))
+    ISO_26262
+      Focus:::iso[Functional Safety]
+      Governs_meaning:::iso[No]
+      Governs_drift:::iso[No]
+      Semantic_lifecycle:::iso[No]
+      Occlusion_meaning:::iso[No]
+      Cross_model_contradictions:::iso[No]
+      Semantic_scoring:::iso[No]
+      Tiering:::iso[No]
+      Fading_logic:::iso[No]
+      Semantic_diagnostics:::iso[No]
+      SSCEs:::iso[No]
+      Complements_AV:::iso[Yes]
+    SOTIF
+      Focus:::sotif[Safety of Intended Functionality]
+      Governs_meaning:::sotif[No]
+      Governs_drift:::sotif[Partial]
+      Semantic_lifecycle:::sotif[No]
+      Occlusion_meaning:::sotif[Partial]
+      Cross_model_contradictions:::sotif[No]
+      Semantic_scoring:::sotif[No]
+      Tiering:::sotif[No]
+      Fading_logic:::sotif[No]
+      Semantic_diagnostics:::sotif[No]
+      SSCEs:::sotif[No]
+      Complements_AV:::sotif[Yes]
+    DAIS_10
+      Focus:::dais[Semantic Safety]
+      Governs_meaning:::dais[Yes]
+      Governs_drift:::dais[Yes]
+      Semantic_lifecycle:::dais[Yes]
+      Occlusion_meaning:::dais[Yes]
+      Cross_model_contradictions:::dais[Yes]
+      Semantic_scoring:::dais[Yes]
+      Tiering:::dais[Yes]
+      Fading_logic:::dais[Yes]
+      Semantic_diagnostics:::dais[Yes]
+      SSCEs:::dais[Yes]
+      Complements_AV:::dais[Yes]
+```
+
 ```text
 +----------------------------------------+-------------+-------------------------------+-------------+
 |                Dimension               | ISO 26262   |            SOTIF              |   DAIS‑10   |
