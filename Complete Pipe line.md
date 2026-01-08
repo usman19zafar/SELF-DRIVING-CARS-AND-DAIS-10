@@ -13,3 +13,18 @@ flowchart LR
     K --> L["Control\nExecution Layer"]
     L --> M["AMD‑10\nMeaning Diagnostics"]
 ```
+
+Description Block
+Sensors — Raw signals from cameras, LiDAR, radar, IMU, tactile sensors.
+Perception — Converts raw signals into structured observations.
+SIS‑10 — Interprets observations into semantic descriptors.
+SIF‑10 — Assigns influence weights to semantic attributes.
+MCM‑10 — Classifies attributes into semantic roles (MD, ME, MX, MN).
+TIER‑10 — Assigns governance tiers (E, EC, C, CN, N).
+SICM‑10 — Computes semantic intensity scores (0–100).
+DIFS‑10 — Models drift and fading over time or uncertainty.
+QFIM‑10 — Produces qualified interpretation levels.
+Fusion — Cross‑sensor semantic integration.
+Planning — Task and motion planning constrained by semantic meaning.
+Control — Executes actions with semantic‑aware modulation.
+AMD‑10 — Detects semantic failures, contradictions, and collapse.
